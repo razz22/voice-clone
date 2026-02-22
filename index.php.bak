@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Laravel Bridge - Allows running the app without Artisan Serve
+ * Bridging to public/index.php
+ */
+
+require_once __DIR__.'/public/index.php';
