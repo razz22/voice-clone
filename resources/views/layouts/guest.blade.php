@@ -44,6 +44,17 @@
                 background-color: #1e293b !important;
                 color: #ffffff !important;
                 border: 1px solid rgba(255, 255, 255, 0.1) !important;
+                padding: 0.75rem 1rem !important;
+                width: 100% !important;
+                border-radius: 12px !important;
+                outline: none !important;
+                font-size: 0.95rem !important;
+                transition: all 0.3s ease !important;
+                margin-top: 0.5rem !important;
+            }
+            input:focus, select:focus, textarea:focus {
+                border-color: #6366f1 !important;
+                box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2) !important;
             }
             input::placeholder {
                 color: rgba(255, 255, 255, 0.3) !important;
